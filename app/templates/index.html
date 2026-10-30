@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AskMate AI demo college FAQ chatbot using NLP.">
+  <title>AskMate AI | Student Support</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <main class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">A</span><div><strong>AskMate AI</strong><small>Student Support</small></div></div>
+      <div class="side-label">KNOWLEDGE BASE</div>
+      <label class="filter-label" for="categoryFilter">Filter by category</label>
+      <select id="categoryFilter"><option value="">All categories</option></select>
+      <div class="side-note">Demo knowledge base<br><span>Answers are sample information, not official college policy.</span></div>
+    </aside>
+    <section class="chat-panel">
+      <header class="topbar"><div><span class="status-dot"></span><strong>College Help Assistant</strong><small>Powered by NLP similarity matching</small></div><button id="clearButton" class="ghost-button" type="button">Clear chat</button></header>
+      <div class="welcome" id="welcome">
+        <div class="welcome-icon">✦</div>
+        <p class="eyebrow">WELCOME TO ASK MATE</p>
+        <h1>How can I help you today?</h1>
+        <p class="welcome-copy">Ask a question about admissions, courses, hostel, library, exams, placements and more.</p>
+        <div class="suggestions" id="suggestions"></div>
+      </div>
+      <div class="messages" id="messages" aria-live="polite"></div>
+      <div class="composer-wrap">
+        <form id="chatForm" class="composer">
+          <input id="questionInput" type="text" maxlength="300" placeholder="Type your question here..." autocomplete="off" aria-label="Your question">
+          <button type="submit" id="sendButton">Send <span>➤</span></button>
+        </form>
+        <p class="disclaimer">AskMate AI uses a sample FAQ dataset. Always verify important information with your institution.</p>
+      </div>
+    </section>
+  </main>
+  <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
+</body>
+</html>

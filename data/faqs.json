@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "title": "Demo College FAQ Knowledge Base",
+    "notice": "All information is SAMPLE DEMO DATA for a student project. It is not official college policy."
+  },
+  "faqs": [
+    {
+      "id": 1,
+      "category": "Admission",
+      "question": "How can I apply for admission?",
+      "variations": [
+        "admission process",
+        "how to join the college",
+        "apply online application form",
+        "how do I enrol"
+      ],
+      "answer": "Applications are submitted through the college admission portal by completing the form and uploading the required documents (demo data)."
+    },
+    {
+      "id": 2,
+      "category": "Admission",
+      "question": "What documents are required for admission?",
+      "variations": [
+        "admission documents list",
+        "certificates needed to apply",
+        "what papers should I bring",
+        "required marksheets and ID proof"
+      ],
+      "answer": "A typical application may ask for marksheets, a transfer certificate, identity proof and passport-size photographs (demo data)."
+    },
+    {
+      "id": 3,
+      "category": "Courses",
+      "question": "What courses and departments are available?",
+      "variations": [
+        "list of programs offered",
+        "which degrees can I study",
+        "departments in the college",
+        "available branches"
+      ],
+      "answer": "The demo college knowledge base includes sample Engineering, Science, Management and Humanities departments. Check the official college website for actual offerings (demo data)."
+    },
+    {
+      "id": 4,
+      "category": "Fees",
+      "question": "Where can I find the fee structure?",
+      "variations": [
+        "course fees details",
+        "tuition fee information",
+        "how much is the college fee",
+        "semester fee"
+      ],
+      "answer": "The fee structure is usually published by the admissions or accounts office. Please consult the official fee notice for accurate amounts (demo data)."
+    },
+    {
+      "id": 5,
+      "category": "Hostel",
+      "question": "Does the college provide hostel facilities?",
+      "variations": [
+        "is hostel available",
+        "student accommodation",
+        "where can I stay on campus",
+        "hostel facility"
+      ],
+      "answer": "The demo information assumes that student accommodation information is available from the hostel office. Contact the official office to confirm availability (demo data)."
+    },
+    {
+      "id": 6,
+      "category": "Hostel",
+      "question": "How can I apply for a hostel room?",
+      "variations": [
+        "hostel admission process",
+        "book a hostel room",
+        "hostel application form",
+        "how to get accommodation"
+      ],
+      "answer": "Students can normally ask the hostel office for the application process, room availability and required documents (demo data)."
+    },
+    {
+      "id": 7,
+      "category": "Library",
+      "question": "What are the library timings?",
+      "variations": [
+        "when does the library close",
+        "when does library open",
+        "library opening and closing time",
+        "is the library open in evening"
+      ],
+      "answer": "For this demo knowledge base, the library is shown as open from 9 AM to 6 PM. These are sample timings, not official college timings."
+    },
+    {
+      "id": 8,
+      "category": "Library",
+      "question": "How can I borrow books from the library?",
+      "variations": [
+        "issue a book",
+        "borrow library books",
+        "book lending process",
+        "how many books can I take"
+      ],
+      "answer": "A student would typically use a valid library ID and follow the library's issue and return rules. Confirm the actual limits with the library (demo data)."
+    },
+    {
+      "id": 9,
+      "category": "Examinations",
+      "question": "Where can I check the examination timetable?",
+      "variations": [
+        "exam schedule",
+        "when are exams",
+        "date sheet",
+        "exam time table"
+      ],
+      "answer": "The examination timetable is generally shared through the official student portal or examination section notice board (demo data)."
+    },
+    {
+      "id": 10,
+      "category": "Examinations",
+      "question": "What should I do if I miss an examination?",
+      "variations": [
+        "missed my exam",
+        "absent during exam",
+        "could not attend examination",
+        "exam absence procedure"
+      ],
+      "answer": "Contact the examination office or academic advisor as soon as possible and follow the official procedure. Rules depend on the institution (demo data)."
+    },
+    {
+      "id": 11,
+      "category": "Attendance",
+      "question": "How is attendance calculated?",
+      "variations": [
+        "attendance percentage",
+        "how to calculate attendance",
+        "class attendance rules",
+        "minimum attendance"
+      ],
+      "answer": "Attendance is generally calculated from attended classes divided by total conducted classes, multiplied by 100. Check official regulations for the required percentage (demo data)."
+    },
+    {
+      "id": 12,
+      "category": "Attendance",
+      "question": "How can I check my attendance?",
+      "variations": [
+        "view my attendance record",
+        "attendance status",
+        "where is attendance displayed",
+        "check attendance percentage"
+      ],
+      "answer": "Students can usually check attendance through a student portal or department office. This demo chatbot cannot access personal attendance records."
+    },
+    {
+      "id": 13,
+      "category": "Placements",
+      "question": "Does the college have a placement cell?",
+      "variations": [
+        "placement office",
+        "campus recruitment support",
+        "job placement department",
+        "career services"
+      ],
+      "answer": "The demo college has a sample placement-support contact point. For actual placement services, contact your institution's official placement cell."
+    },
+    {
+      "id": 14,
+      "category": "Placements",
+      "question": "How can I prepare for campus placements?",
+      "variations": [
+        "placement preparation tips",
+        "prepare for interview",
+        "campus recruitment preparation",
+        "how to get placed"
+      ],
+      "answer": "A useful preparation plan includes aptitude practice, core subject revision, data structures and algorithms, projects, resume preparation and mock interviews (demo data)."
+    },
+    {
+      "id": 15,
+      "category": "Scholarships",
+      "question": "Are scholarships available for students?",
+      "variations": [
+        "financial aid",
+        "student scholarship options",
+        "scholarship schemes",
+        "fee assistance"
+      ],
+      "answer": "Scholarship availability depends on eligibility and current schemes. Check official government and college scholarship notices for accurate details (demo data)."
+    },
+    {
+      "id": 16,
+      "category": "Scholarships",
+      "question": "How do I apply for a scholarship?",
+      "variations": [
+        "scholarship application process",
+        "apply for financial aid",
+        "documents for scholarship",
+        "scholarship form"
+      ],
+      "answer": "Review the scholarship notification, eligibility criteria, deadlines and required documents before applying through the official portal (demo data)."
+    },
+    {
+      "id": 17,
+      "category": "Contact",
+      "question": "How can I contact the college office?",
+      "variations": [
+        "college contact details",
+        "phone number of office",
+        "email address",
+        "how to reach administration"
+      ],
+      "answer": "Please use the contact details published on the institution's official website. This sample chatbot does not provide verified contact information."
+    },
+    {
+      "id": 18,
+      "category": "Student Support",
+      "question": "Whom should I contact for academic help?",
+      "variations": [
+        "academic support",
+        "need help with studies",
+        "talk to academic advisor",
+        "subject related help"
+      ],
+      "answer": "Students can usually approach their faculty mentor, course instructor or department office for academic guidance (demo data)."
+    },
+    {
+      "id": 19,
+      "category": "Campus",
+      "question": "Is Wi-Fi available on campus?",
+      "variations": [
+        "campus internet facility",
+        "student wifi",
+        "wireless internet",
+        "connect to college network"
+      ],
+      "answer": "Campus Wi-Fi availability and login instructions should be confirmed with the institution's IT support team (demo data)."
+    },
+    {
+      "id": 20,
+      "category": "Events",
+      "question": "Where can I find information about college events?",
+      "variations": [
+        "upcoming college events",
+        "fest information",
+        "student activities",
+        "event calendar"
+      ],
+      "answer": "Event announcements are commonly shared through official college notices, student groups and the institution's website (demo data)."
+    }
+  ]
+}
